@@ -1,6 +1,5 @@
 #!/usr/bin/php
 <?php
-global $argv;
 include 'libs/JalaliDate.php';
 if (in_array('-help',$argv)){
 	echo PHP_EOL;
